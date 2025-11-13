@@ -1,0 +1,21 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom colors */
+@layer base {
+  :root {
+    --color-primary-900: #1a1a2e;
+    --color-primary-800: #16213e;
+    --color-primary-700: #0f3460;
+    --color-primary-600: #0e3b5e;
+    --color-accent: #e94560;
+  }
+}
+
+.bg-primary-900 { background-color: #1a1a2e; }
+.bg-primary-800 { background-color: #16213e; }
+.bg-primary-700 { background-color: #0f3460; }
+.bg-primary-600 { background-color: #0e3b5e; }
+.text-accent { color: #e94560; }
